@@ -1,6 +1,8 @@
 Chrome extension for full-page screenshot
 --------------------------------------------
 
+__This is not viable because an extension can't write silently to user's file system__
+
 The extension captures a full-page screenshot of a web page by scrolling down, capturing the current view, and combines all the captured images into one giant image.
 
 ___The primary goal___ of this extension is to enable full-page screenshot within browser tests (e.g. Selenium, WebDriver). It offers Javascripts APIs for managing screenshots (e.g. specify the location of the screenshot file).

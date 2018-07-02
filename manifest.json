@@ -1,0 +1,18 @@
+{
+  "name": "Full-page screenshot by GIVE.asia",
+  "version": "1.0",
+  "description": "Capture the full-page screenshot of a webpage.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+		"declarativeContent",
+		"storage",
+		"activeTab"
+	],
+	"page_action": {
+		"default_popup": "popup.html"
+	}
+}
